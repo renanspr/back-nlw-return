@@ -9,4 +9,6 @@ app.use(cors())
 app.use(express.json())
 app.use(router)
 
-app.listen(port, () => console.log(`Server is listening on port ${port}!`))
+app.listen(process.env.PORT || port, () =>
+  console.log(`Server is listening on port ${port}!`)
+)
