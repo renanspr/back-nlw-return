@@ -7,6 +7,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --inspect -- ./src/server.ts",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
     "lint": "eslint --fix --ext .js,.ts,.json .",
     "test": "jest"
   },
