@@ -1,0 +1,43 @@
+{
+  "name": "back.erp",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --inspect -- ./src/server.ts",
+    "lint": "eslint --fix --ext .js,.ts,.json .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.0.3",
+    "@swc/jest": "^0.2.21",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.0",
+    "@types/node": "^17.0.31",
+    "@types/nodemailer": "^6.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.6.2",
+    "prisma": "^3.13.0",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.6.4"
+  }
+}
