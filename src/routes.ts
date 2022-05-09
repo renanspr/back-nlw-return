@@ -1,7 +1,7 @@
 import { Router } from 'express'
-import { PrismaFeedbacksRepository } from 'repositories/prisma/prismaFeedbacksRepository'
-import { SubmitFeedbackService } from 'services/submitFeedback'
-import { NodemailerMailAdapter } from 'adapters/nodemailer/nodemailMailAdapter'
+import { PrismaFeedbacksRepository } from '@repositories/prisma/prismaFeedbacksRepository'
+import { SubmitFeedbackService } from '@services/submitFeedback'
+import { NodemailerMailAdapter } from '@adapters/nodemailer/nodemailMailAdapter'
 
 const router = Router()
 

@@ -1,5 +1,5 @@
-import { MailAdapter } from 'adapters/mailAdapter'
-import { FeedbacksRepository } from '../repositories/feedbacksRepository'
+import { MailAdapter } from '@adapters/mailAdapter'
+import { FeedbacksRepository } from '@repositories/feedbacksRepository'
 
 interface SubmitFeedbackServiceRequest {
   type: string
